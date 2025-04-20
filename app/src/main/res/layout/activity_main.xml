@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/logo">
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="search here"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- ListView -->
+    <ListView
+        android:id="@+id/productListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp"/>
+
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:textColor="#FFFFFF"
+    android:textStyle="bold"
+    android:layout_marginBottom="16dp"/>
+
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add item"
+        android:textColor="#FFFFFF"
+    android:textStyle="bold"
+    android:layout_marginBottom="16dp"/>
+
+
+    <Button
+        android:id="@+id/goToCartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to cart"
+        android:textColor="#FFFFFF"
+    android:textStyle="bold"
+    android:layout_marginTop="16dp" />
+
+</LinearLayout>
